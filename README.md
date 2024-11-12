@@ -21,7 +21,7 @@ El proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 - **React**: Para la construcción de la interfaz de usuario.
 - **Vite**: Herramienta de construcción para un desarrollo rápido y optimizado.
 - **CSS**: Estilos personalizados utilizando técnicas modernas como **CSS Grid** y **Flexbox**.
-- **React Icons**: Para los íconos visuales en las tarjetas de los servidores.
+
 
 ## Estructura del Proyecto
 
