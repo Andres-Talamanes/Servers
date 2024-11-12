@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  text-align: center; /* Centra el contenido del texto */
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #232f3e; /* Estilo tipo AWS */
+  color: #fff;
+  border-bottom: 4px solid #ff9900; /* Línea decorativa */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Estilos para el grid de servidores */
+.servers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+  justify-content: center; /* Centra las tarjetas en el contenedor */
+}
+
+/* Tarjetas de servidor */
+.server-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center; /* Centra el contenido de la tarjeta */
+}
+
+.server-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.server-card img {
+  width: 110px; /* Ajusta la imagen para ocupar todo el ancho disponible */
+  height: 90px; /* Establece una altura fija */
+  object-fit: cover; /* Mantiene las proporciones de la imagen */
+  border-bottom: 2px solid #0073bb; /* Línea decorativa azul */
+}
+
+/* Contenido de las tarjetas */
+.server-card-content {
+  padding: 10px;
+}
+
+.server-card-content h3 {
+  font-size: 1.5rem;
+  color: #232f3e; /* Estilo tipo AWS */
+  margin-bottom: 10px;
+}
+
+.server-card-content p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #232f3e;
+  color: #fff;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
