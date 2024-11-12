@@ -1,5 +1,5 @@
 # Landing Page Para Servidores.
-- Este proyecto es una **Landing Page** diseñada para mostrar información acerca de varios servidores, sus servicios, encargados, e imágenes representativas. La página sigue un estilo similar al de AWS, proporcionando una interfaz limpia y moderna para visualizar los servidores y sus funciones.
+- Este proyecto es una Landing Page diseñada para mostrar información acerca de varios servidores, sus servicios, encargados, e imágenes representativas. La página sigue un estilo similar al de AWS, proporcionando una interfaz limpia y moderna para visualizar los servidores y sus funciones.
 
 ---
 ## Índice
