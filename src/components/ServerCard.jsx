@@ -7,6 +7,9 @@ export const ServerCard = ({ server }) => (
     <div className="server-card-content">
       <h3>{server.name}</h3>
       <p>{server.description}</p>
+      <p>{server.description2}</p>
+      <p>{server.description3}</p>
+      <p>{server.description4}</p>
       <p>
         <strong>
           Encargados:
