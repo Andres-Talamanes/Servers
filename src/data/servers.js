@@ -11,7 +11,10 @@ export const servers = [
   {
     id: 2,
     name: "Servidor Docker",
-    description: "Gestiona contenedores para ejecutar aplicaciones de forma eficiente, asegurando portabilidad y escalabilidad en entornos de desarrollo y producción.",
+    description: "Gestiona contenedores para ejecutar aplicaciones de forma eficiente, asegurando portabilidad y escalabilidad en entornos de desarrollo y producción, asi como los servicios que ofrece son: ",
+    description2: "Codilink: Herramienta colaborativa para edición de código en tiempo real. ",
+    description3: "Kanboard: Gestión visual de proyectos con tableros Kanban.",
+    description4: "Excalidraw: Dibujo y diagramación colaborativa en tiempo real.",
     manager: "Luis Angel Murillo Salinas",
     image: "/images/docker.png",
   },
