@@ -8,6 +8,7 @@ Este proyecto es una Landing Page diseñada para mostrar información acerca de 
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
 4. [Instalación y Configuración](#instalación-y-configuración)
+5. [Funcionalidad Adicional](#Funcionalidad-Adicional)
 
 ---
 ## Descripción del Proyecto
@@ -83,3 +84,15 @@ npm run dev
 ---
 ## Uso
 La página mostrará un conjunto de tarjetas, cada una representando un servidor, con su imagen, descripción, y la lista de encargados. Si se desea modificar o agregar un servidor, se debe editar el archivo src/data/servers.js.
+
+---
+# Funcionalidad Adicional
+## Enlaces Dinámicos para los Encargados
+- Ahora, los nombres de los encargados de cada servidor son clicables y redirigen a los repositorios de GitHub que contienen las instrucciones específicas de cada servidor.
+- Al hacer clic en un nombre, se abrirá una nueva pestaña con el enlace correspondiente al encargado.
+ 
+## Ejemplos de enlaces: 
+- Judith Adilene Andrade Pérez: Repositorio Redis
+- José Fabian Rauda Rivera y Andrés Manuel Hernández Talamanes: Repositorio UbuntuServer
+- Vianey Barrientos Rebollar: Repositorio GitLab
+- Gloria Berenice Hernández Arredondo y Pedro Adrian López Campuzano: Repositorio Servidor Coach DB
