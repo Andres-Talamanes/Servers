@@ -7,7 +7,7 @@ export const servers = [
     ],
     managers: [
       { name: "José Fabian Rauda Rivera", link: "https://github.com/Fabian-005/UbuntuServer-ITE-2024-2.git" },
-      { name: "Andrés Manuel Hernández Talamanes", link: "https://github.com/Fabian-005/UbuntuServer-ITE-2024-2.git" }
+      { name: "Andrés Manuel Hernández Talamanes", link: "https://github.com/Andres-Talamanes/UbuntuServer-ITE-2024-2.git" }
     ],
     image: "/images/proxy.png",
   },
