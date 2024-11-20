@@ -21,7 +21,7 @@ export const servers = [
       "Excalidraw: Dibujo y diagramación colaborativa en tiempo real."
     ],
     managers: [
-      { name: "Luis Angel Murillo Salinas", link: "" } // Sin enlace para este encargado
+      { name: "Luis Angel Murillo Salinas", link: "https://github.com/LuisMurSal/Docker.git" }
     ],
     image: "/images/docker.png",
   },
